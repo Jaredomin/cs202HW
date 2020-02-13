@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
   switch (argc)                                      //sorts out argument input
   {                                                 //expects ./a.out "filename" (optional)--lineonly
     case 1:                                        //anything more than 3 arguments will exit program
-      fileName = "output.txt";                    //if second argument is not --lineonly, it will be ignored
-    break;                                       //if there are no arguments "output.txt" is used for output"
+      fileName = "input.txt";                     //if second argument is not --lineonly, it will be ignored
+    break;                                       //if there are no arguments "input.txt" is used for output"
     case 2:
       fileName = argv[1];
     break;
